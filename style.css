@@ -66,3 +66,15 @@ body
     font-family: 'Roboto', sans-serif;
     width: 200px;
 }
+
+.rainbow
+{
+    background-color: #DBE2EF;
+    color:#112D4E;
+    padding:20px;
+    font-size: 20px;
+    border-color: #3F72AF;
+    margin:30px;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+}

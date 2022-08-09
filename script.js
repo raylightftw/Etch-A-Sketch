@@ -60,3 +60,24 @@ function greatClear()
 }
 
 //https://imgur.com/bkyienb.png
+
+rbow=document.querySelector('.rainbow')
+rbow.addEventListener('click',()=>{greatRainbow()})
+
+
+function greatRainbow()
+{
+var grids3=document.getElementsByClassName('Grids')
+var grid_array2=[...grids3];
+grid_array2.forEach(div => div.addEventListener('mouseover',function() {
+    var letters='0123456789ABCDEF';
+    var bcolor='#'
+    for(var m=0;m<6;m++)
+    {
+        bcolor+=letters[Math.floor(Math.random()*16)];
+    }
+    div.style.backgroundColor=bcolor;
+    
+} ) )
+}
+
